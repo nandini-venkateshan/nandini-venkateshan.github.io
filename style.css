@@ -1,0 +1,181 @@
+body {
+
+	height: 100%;
+	width: 100%;
+}
+
+* {
+	margin: 0px;
+}
+
+.header-page {
+
+	background-color: #3c241b;
+	min-height: 50px;
+	padding: 0px 20px 0px 20px;
+}
+
+.footer-page {
+	background-image: url("images/footer.jpeg");
+	min-height: 100px;
+	margin: 20px 0px 0px 0px;
+	clear: both;
+}
+
+.footerlist {
+	list-style-type: none;
+	line-height: 30px;
+	color: white;
+}
+.footerlist li{
+	font-size:15px;
+}
+.headlt img {
+
+	display: inline;
+	padding: 20px;
+	float: left;
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	margin-left: 30px;
+}
+
+
+
+.rt li {
+	list-style-type: none;
+	display: inline;
+	float: left;
+	color: white;
+	font-weight: bold;
+	padding: 0px;
+	text-align: center;
+
+	margin: 50px 0px 0px 40px;
+}
+
+section	.first {
+	height: 500px;
+	width: 40%;
+	float: left;
+	background-color: #ad8e55;
+}
+
+section	.first p {
+	color: white;
+	font-weight: bold;
+	line-height: 30px;
+	padding: 50px;
+	text-align: justify;
+}
+
+section	.first li {
+	clear: both;
+	padding: 50px 0px 0px 30px;
+	list-style-type: none;
+
+}
+
+section	.first li a {
+
+	color: black;
+	font-weight: bold;
+}
+
+section	.second {
+	height: 500px;
+	width: 60%;
+	float: left;
+	background-color: #ff9800ad;
+
+}
+
+.second .img {
+	min-height: 100px;
+	min-width: 50px;
+	background-image: url("images/1.jpeg");
+	margin: 20px;
+}
+
+.content .left {
+	height: 60%;
+	width: 40%;
+	background-image: url("images/left.jpeg");
+	margin: 20px;
+	float: left;
+	background-size: cover;
+}
+
+.content .right {
+	height: 60%;
+	width: 47%;
+	background-color: #a5634fad;
+	margin: 20px;
+	float: left;
+	overflow-y: scroll;
+}
+.right h1{
+	color:white;
+	margin-top:10px;
+	text-align:center;
+}
+.right p{
+	padding:20px;
+	text-align:justify;
+	color:white;
+}
+.footer-page-div{
+	margin-left:200px;
+	margin-top:20px;
+	padding:10px;
+	width:300px;
+	float:left;
+}
+.footer-page-div .about{
+	color:orange;
+	font-weight:bold;
+	font-size:30px;
+	padding-bottom:10px;
+} 
+.footer-page-div .about-para{
+	color:white;
+	font-size:20px;
+	text-align:justify;
+} 
+.footerPageSecDiv{
+	margin-left:100px;
+	margin-top:20px;
+	padding:10px;
+	width:300px;
+	float:left;
+}
+.footerPagePara{
+	color:orange;
+	font-weight:bold;
+	font-size:30px;
+	padding-bottom:10px;
+	margin-left:20px;
+}
+.footerPageSecDiv .foolist{
+	color:white;
+	font-size:20px;
+	text-align:justify;
+}
+.recentPost{
+	margin-top:20px;
+	padding:10px;
+	width:300px;
+	float:right;
+}
+.recentPost .footerDiv{
+	margin-left:60px;
+}
+.footerDiv .image{
+	height:100px;
+	width:100px;
+	padding:20px;
+}
+.clear{
+	clear:both;
+}
