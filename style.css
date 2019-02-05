@@ -140,8 +140,9 @@ section	.second {
 } 
 .footer-page-div .about-para{
 	color:white;
-	font-size:20px;
+	font-size:17px;
 	text-align:justify;
+	line-height:25px;
 } 
 .footerPageSecDiv{
 	margin-left:100px;
